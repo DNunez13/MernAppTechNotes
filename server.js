@@ -7,7 +7,6 @@ app.use('/', express.static(path.join(__dirname, '/public')))
 
 app.use('/', require('./routes/root'))
 
-<<<<<<< HEAD
 app.all('*', (req, res) => {
   res.status(404)
   if (req.accepts('html')) {
@@ -19,6 +18,4 @@ app.all('*', (req, res) => {
   }
 })
 
-=======
->>>>>>> 0167f36d56ace8afccec4dc398ee9a35520dc545
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
