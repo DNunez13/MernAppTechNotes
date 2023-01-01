@@ -2,24 +2,23 @@
   "name": "mernapp",
   "version": "1.0.0",
   "description": "techNotes MERN Project",
-<<<<<<< HEAD
   "main": "server.js",
-=======
-  "main": "index.js",
->>>>>>> 0167f36d56ace8afccec4dc398ee9a35520dc545
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
   "keywords": [],
-<<<<<<< HEAD
   "author": "Daniel Nunez",
-=======
-  "author": "",
->>>>>>> 0167f36d56ace8afccec4dc398ee9a35520dc545
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "sequence": "^3.0.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
